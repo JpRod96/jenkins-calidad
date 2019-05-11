@@ -1,0 +1,51 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.maven.MavenBuild plugin="maven-plugin@3.2">
+  <actions/>
+  <queueId>-1</queueId>
+  <timestamp>1557604738055</timestamp>
+  <startTime>1557605119160</startTime>
+  <result>ABORTED</result>
+  <duration>7</duration>
+  <charset>windows-1252</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>C:\Users\Jp.SANDRO-HP\.jenkins\workspace\Practica3-calidad-mvn</workspace>
+  <executedMojos class="java.util.concurrent.CopyOnWriteArrayList">
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.jacoco</groupId>
+      <artifactId>jacoco-maven-plugin</artifactId>
+      <version>0.8.3</version>
+      <goal>report</goal>
+      <executionId>default-cli</executionId>
+      <duration>29300</duration>
+      <digest>4eff98eea2fb116c00eeb58c042f935f</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-checkstyle-plugin</artifactId>
+      <version>3.0.0</version>
+      <goal>checkstyle</goal>
+      <executionId>default-cli</executionId>
+      <duration>35800</duration>
+      <digest>679ab628ec3dd9add4f456f114b67858</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>org.jacoco</groupId>
+      <artifactId>jacoco-maven-plugin</artifactId>
+      <version>0.8.3</version>
+      <goal>prepare-agent</goal>
+      <executionId>default</executionId>
+      <duration>5</duration>
+      <digest>4eff98eea2fb116c00eeb58c042f935f</digest>
+    </hudson.maven.ExecutedMojo>
+    <hudson.maven.ExecutedMojo>
+      <groupId>com.github.eirslett</groupId>
+      <artifactId>frontend-maven-plugin</artifactId>
+      <version>1.6</version>
+      <goal>install-node-and-npm</goal>
+      <executionId>install node and npm</executionId>
+      <duration>115250</duration>
+      <digest>45a64ca1cfa5f42d8ce12e757227565f</digest>
+    </hudson.maven.ExecutedMojo>
+  </executedMojos>
+</hudson.maven.MavenBuild>
