@@ -1,0 +1,43 @@
+Lanzada por el usuario [8mha:////4M/0sfnVjW8Hoi450vvtimldzupuaeQ1NJZrbCIhCcA/AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgZu/dLi1CL9xJTczDwAS4B5WsAAAAA=[0mProyecto-Calidad
+Running as SYSTEM
+Ejecutando.en el espacio de trabajo C:\Users\Jp.SANDRO-HP\.jenkins\workspace\unitTesting
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/neddyKG/UnitTestUcbFormato.git
+ > git.exe init C:\Users\Jp.SANDRO-HP\.jenkins\workspace\unitTesting # timeout=10
+Fetching upstream changes from https://github.com/neddyKG/UnitTestUcbFormato.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --force --progress https://github.com/neddyKG/UnitTestUcbFormato.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe config remote.origin.url https://github.com/neddyKG/UnitTestUcbFormato.git # timeout=10
+ > git.exe config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe config remote.origin.url https://github.com/neddyKG/UnitTestUcbFormato.git # timeout=10
+Fetching upstream changes from https://github.com/neddyKG/UnitTestUcbFormato.git
+ > git.exe fetch --tags --force --progress https://github.com/neddyKG/UnitTestUcbFormato.git +refs/heads/*:refs/remotes/origin/*
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision c8cad0fafd9e1bdb38b8da626d9a6fe19d25143f (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f c8cad0fafd9e1bdb38b8da626d9a6fe19d25143f
+Commit message: "add jacoco and junit"
+First time build. Skipping changelog.
+[unitTesting] $ cmd.exe /C "mvn install-node-and-npm && exit %%ERRORLEVEL%%"
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< com.ucbcba.joel:ucb-correccion-formato >---------------
+[INFO] Building ucb-correccion-formato 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.945 s
+[INFO] Finished at: 2019-05-10T21:57:06-04:00
+[INFO] ------------------------------------------------------------------------
+[8mha:////4JAzFKzbD6YgKbVWQeunkvWBJXtdcU+kkWFPrMXbVfkAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Unknown lifecycle phase "install-node-and-npm". You must specify a valid lifecycle phase or a goal in the format <plugin-prefix>:<goal> or <plugin-group-id>:<plugin-artifact-id>[:<plugin-version>]:<goal>. Available lifecycle phases are: validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy, pre-clean, clean, post-clean, pre-site, site, post-site, site-deploy. -> [Help 1]
+[8mha:////4JAzFKzbD6YgKbVWQeunkvWBJXtdcU+kkWFPrMXbVfkAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4JAzFKzbD6YgKbVWQeunkvWBJXtdcU+kkWFPrMXbVfkAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4JAzFKzbD6YgKbVWQeunkvWBJXtdcU+kkWFPrMXbVfkAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4JAzFKzbD6YgKbVWQeunkvWBJXtdcU+kkWFPrMXbVfkAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] 
+[8mha:////4JAzFKzbD6YgKbVWQeunkvWBJXtdcU+kkWFPrMXbVfkAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4JAzFKzbD6YgKbVWQeunkvWBJXtdcU+kkWFPrMXbVfkAAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55ZekOlc7RKnPKH7IxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAACsNFCqYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/LifecyclePhaseNotFoundException
+Build step 'Ejecutar tareas 'maven' de nivel superior' marked build as failure
+Finished: FAILURE
